@@ -2,6 +2,8 @@
 //  ContentView.swift
 //  First
 //
+// Based on Linkedin Introduction to iOS 14 programing
+//
 //  Created by Paweł Ładna on 26/03/2021.
 //
 
