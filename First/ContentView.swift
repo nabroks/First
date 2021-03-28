@@ -11,8 +11,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Tip Calculator").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).bold()
+            HStack {
+                Text("PLN")
+                Text("TextField")
+            }.padding()
+            
+            HStack {
+                Text("Silder")
+                Text("%")
+            }.padding()
+            
+            Text("Total tip").font(.title2).bold()
+        }
     }
 }
 
